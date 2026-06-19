@@ -234,8 +234,8 @@ body {
     overflow: hidden;
     padding: 120px 10%;
     background:
-        radial-gradient(circle at top left, rgba(0, 238, 255, 0.18), transparent 30%),
-        radial-gradient(circle at bottom right, rgba(255, 82, 182, 0.12), transparent 28%),
+        radial-gradient(circle at top left, rgba(208, 220, 221, 0.18), transparent 30%),
+        radial-gradient(circle at bottom right, rgba(255, 82, 182, 0.12), transparent 58%),
         linear-gradient(rgba(8, 27, 41, 0.82), rgba(8, 27, 41, 0.92)),
         url('Futuristic Neon Blue And Pink Desktop Wallpaper.png') center/cover no-repeat;
 }
@@ -316,7 +316,7 @@ body {
     object-fit: cover;
     object-position: center top;
     border-radius: 50%;
-    background: #0d1f2f;
+    background: linear-gradient(rgba(8, 27, 41, 0.2), rgba(8, 27, 41, 0.75)), url('Futuristic Neon Blue And Pink Desktop Wallpaper.png') no-repeat;
     filter: saturate(1.05) contrast(1.02);
 }
 
@@ -1202,7 +1202,7 @@ section {
     z-index:10;
 }
 .download-btn i{
-    font-size:22px;
+    font-size:20px;
     flex-shrink:0;
 }
 .download-btn:hover{
